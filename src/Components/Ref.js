@@ -6,6 +6,7 @@ import {useState, useEffect, useRef} from "react";
 function Ref(props) {
     // const [renderCount, setRenderCount] = useState(1)
     const [value, setValue] = useState('initial')
+    let valueTest = 'test'
 
     /**
      * hook useRef
