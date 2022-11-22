@@ -1,9 +1,10 @@
 import Ref from "./Components/Ref";
+import Memo from "./Components/Memo";
 
 function App() {
   return (
     <div>
-      <Ref/>
+        <Memo/>
     </div>
   );
 }
